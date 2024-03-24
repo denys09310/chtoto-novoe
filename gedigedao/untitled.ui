@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>799</width>
+    <height>564</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -34,7 +34,7 @@ color: rgb(177, 177, 177);</string>
      <string>Ч/Б</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="blur_btn">
     <property name="geometry">
      <rect>
       <x>600</x>
@@ -51,7 +51,7 @@ color: rgb(177, 177, 177);</string>
      <string>Різкість</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
+   <widget class="QPushButton" name="mirror_btn">
     <property name="geometry">
      <rect>
       <x>520</x>
@@ -68,7 +68,7 @@ color: rgb(177, 177, 177);</string>
      <string>Дзеркало</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_4">
+   <widget class="QPushButton" name="right_btn">
     <property name="geometry">
      <rect>
       <x>440</x>
@@ -85,7 +85,7 @@ color: rgb(177, 177, 177);</string>
      <string>Праворуч</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_5">
+   <widget class="QPushButton" name="left_btn">
     <property name="geometry">
      <rect>
       <x>350</x>
@@ -102,11 +102,11 @@ color: rgb(177, 177, 177);</string>
      <string>Ліворуч</string>
     </property>
    </widget>
-   <widget class="QListWidget" name="listWidget">
+   <widget class="QListWidget" name="image_list">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>60</y>
+      <x>40</x>
+      <y>70</y>
       <width>256</width>
       <height>491</height>
      </rect>
@@ -115,7 +115,7 @@ color: rgb(177, 177, 177);</string>
      <string notr="true">background:rgb(0, 0, 57)</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_6">
+   <widget class="QPushButton" name="floder_btn">
     <property name="geometry">
      <rect>
       <x>50</x>
@@ -132,7 +132,7 @@ color: rgb(177, 177, 177)</string>
      <string>папка</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label">
+   <widget class="QLabel" name="image_label">
     <property name="geometry">
      <rect>
       <x>300</x>
@@ -149,13 +149,30 @@ color: rgb(177, 177, 177)</string>
      <string>картинка</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="save_btn">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>20</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: rgb(0, 0, 57);
+color: rgb(177, 177, 177)</string>
+    </property>
+    <property name="text">
+     <string>зберегти</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>799</width>
      <height>21</height>
     </rect>
    </property>
